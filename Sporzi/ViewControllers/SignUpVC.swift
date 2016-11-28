@@ -77,8 +77,9 @@ CommonMethod.buttonDesignW(btn: btnNext)
     }
     
     @IBAction func btnNextClicked(_ sender: Any) {
-        let objPlayerAd = storyboard?.instantiateViewController(withIdentifier: "PlayerAdVC") as! PlayerAdVC
-        self.navigationController?.pushViewController(objPlayerAd, animated: true)
+        let objVerfication = storyboard?.instantiateViewController(withIdentifier: "VerificationVC") as! VerificationVC
+    self.navigationController?.pushViewController(objVerfication, animated: true)
+
         
     }
     

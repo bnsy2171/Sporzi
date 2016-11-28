@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A1470701DE8362A00F847F1 /* TeamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14706F1DE8362A00F847F1 /* TeamDetailVC.swift */; };
-		3A1470721DE840DF00F847F1 /* TeamInformationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1470711DE840DF00F847F1 /* TeamInformationDetailVC.swift */; };
 		3A210F351DE41BFD0001F1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A210F331DE41BFD0001F1F5 /* Main.storyboard */; };
 		3A210F371DE41BFD0001F1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A210F361DE41BFD0001F1F5 /* Assets.xcassets */; };
 		3A210F3A1DE41BFD0001F1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A210F381DE41BFD0001F1F5 /* LaunchScreen.storyboard */; };
@@ -18,6 +16,12 @@
 		3A210F5C1DE4771E0001F1F5 /* CreateTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A210F5B1DE4771E0001F1F5 /* CreateTeamVC.swift */; };
 		3A210F601DE477BF0001F1F5 /* CommonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A210F5F1DE477BF0001F1F5 /* CommonMethod.swift */; };
 		3A210F651DE478C10001F1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A210F641DE478C10001F1F5 /* AppDelegate.swift */; };
+		3A3DF2E31DEC275C00D4F34D /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2E21DEC275C00D4F34D /* VerificationVC.swift */; };
+		3A3DF2E51DEC2FE500D4F34D /* TeamSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2E41DEC2FE500D4F34D /* TeamSelectionVC.swift */; };
+		3A3DF2EB1DEC396100D4F34D /* TeamSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2EA1DEC396100D4F34D /* TeamSelectionCell.swift */; };
+		3A3DF2ED1DEC4BAB00D4F34D /* PlayerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2EC1DEC4BAB00D4F34D /* PlayerDetailVC.swift */; };
+		3A3DF2EF1DEC557B00D4F34D /* PlayerSportsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2EE1DEC557B00D4F34D /* PlayerSportsDetail.swift */; };
+		3A3DF2F11DEC55A800D4F34D /* PlayerSportsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DF2F01DEC55A800D4F34D /* PlayerSportsDetailCell.swift */; };
 		3ADB2BDA1DE5A0B800CF14A4 /* MySportsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2BD91DE5A0B800CF14A4 /* MySportsTableVC.swift */; };
 		3ADB2BDC1DE5A12000CF14A4 /* MySportsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2BDB1DE5A12000CF14A4 /* MySportsTableCell.swift */; };
 		3ADB2BDF1DE5C5F800CF14A4 /* MySportsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2BDE1DE5C5F800CF14A4 /* MySportsCollectionVC.swift */; };
@@ -45,8 +49,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A14706F1DE8362A00F847F1 /* TeamDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamDetailVC.swift; path = ViewControllers/TeamDetailVC.swift; sourceTree = "<group>"; };
-		3A1470711DE840DF00F847F1 /* TeamInformationDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamInformationDetailVC.swift; path = ViewControllers/TeamInformationDetailVC.swift; sourceTree = "<group>"; };
 		3A210F2C1DE41BFD0001F1F5 /* Sporzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sporzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A210F341DE41BFD0001F1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A210F361DE41BFD0001F1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +60,12 @@
 		3A210F5B1DE4771E0001F1F5 /* CreateTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateTeamVC.swift; path = ViewControllers/CreateTeamVC.swift; sourceTree = "<group>"; };
 		3A210F5F1DE477BF0001F1F5 /* CommonMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonMethod.swift; path = Resources/CommonMethod.swift; sourceTree = "<group>"; };
 		3A210F641DE478C10001F1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		3A3DF2E21DEC275C00D4F34D /* VerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		3A3DF2E41DEC2FE500D4F34D /* TeamSelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamSelectionVC.swift; path = ViewControllers/TeamSelectionVC.swift; sourceTree = "<group>"; };
+		3A3DF2EA1DEC396100D4F34D /* TeamSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamSelectionCell.swift; path = TableViewCell/TeamSelectionCell.swift; sourceTree = "<group>"; };
+		3A3DF2EC1DEC4BAB00D4F34D /* PlayerDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailVC.swift; path = ViewControllers/PlayerDetailVC.swift; sourceTree = "<group>"; };
+		3A3DF2EE1DEC557B00D4F34D /* PlayerSportsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerSportsDetail.swift; path = ViewControllers/PlayerSportsDetail.swift; sourceTree = "<group>"; };
+		3A3DF2F01DEC55A800D4F34D /* PlayerSportsDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerSportsDetailCell.swift; path = TableViewCell/PlayerSportsDetailCell.swift; sourceTree = "<group>"; };
 		3ADB2BD91DE5A0B800CF14A4 /* MySportsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySportsTableVC.swift; path = ViewControllers/MySportsTableVC.swift; sourceTree = "<group>"; };
 		3ADB2BDB1DE5A12000CF14A4 /* MySportsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySportsTableCell.swift; path = TableViewCell/MySportsTableCell.swift; sourceTree = "<group>"; };
 		3ADB2BDE1DE5C5F800CF14A4 /* MySportsCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySportsCollectionVC.swift; path = ViewControllers/MySportsCollectionVC.swift; sourceTree = "<group>"; };
@@ -134,9 +142,11 @@
 				3A210F5B1DE4771E0001F1F5 /* CreateTeamVC.swift */,
 				3A210F571DE474820001F1F5 /* SignUpVC.swift */,
 				3ADB2BD91DE5A0B800CF14A4 /* MySportsTableVC.swift */,
+				3A3DF2E21DEC275C00D4F34D /* VerificationVC.swift */,
+				3A3DF2EE1DEC557B00D4F34D /* PlayerSportsDetail.swift */,
 				3ADB2BE21DE5C96000CF14A4 /* MySportsVC.swift */,
-				3A1470711DE840DF00F847F1 /* TeamInformationDetailVC.swift */,
-				3A14706F1DE8362A00F847F1 /* TeamDetailVC.swift */,
+				3A3DF2E41DEC2FE500D4F34D /* TeamSelectionVC.swift */,
+				3A3DF2EC1DEC4BAB00D4F34D /* PlayerDetailVC.swift */,
 				3AF7133D1DE6CD1500598EB0 /* PlayerAdVC.swift */,
 				3ADB2BDE1DE5C5F800CF14A4 /* MySportsCollectionVC.swift */,
 				3A210F481DE440160001F1F5 /* ForgotPasswordVC.swift */,
@@ -166,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				3ADB2BDB1DE5A12000CF14A4 /* MySportsTableCell.swift */,
+				3A3DF2F01DEC55A800D4F34D /* PlayerSportsDetailCell.swift */,
+				3A3DF2EA1DEC396100D4F34D /* TeamSelectionCell.swift */,
 				3ADB2BE71DE5D56A00CF14A4 /* MySportsCollectionCell.swift */,
 			);
 			name = TableViewCell;
@@ -320,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF713811DE6E4EC00598EB0 /* IQNSArray+Sort.swift in Sources */,
+				3A3DF2F11DEC55A800D4F34D /* PlayerSportsDetailCell.swift in Sources */,
 				3AF713901DE6E4EC00598EB0 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				3A210F651DE478C10001F1F5 /* AppDelegate.swift in Sources */,
 				3AF7138D1DE6E4EC00598EB0 /* IQPreviousNextView.swift in Sources */,
@@ -329,26 +342,29 @@
 				3AF7138B1DE6E4EC00598EB0 /* IQTextView.swift in Sources */,
 				3ADB2BE81DE5D56A00CF14A4 /* MySportsCollectionCell.swift in Sources */,
 				3AF713831DE6E4EC00598EB0 /* IQUITextFieldView+Additions.swift in Sources */,
-				3A1470701DE8362A00F847F1 /* TeamDetailVC.swift in Sources */,
+				3A3DF2E31DEC275C00D4F34D /* VerificationVC.swift in Sources */,
 				3AF7138E1DE6E4EC00598EB0 /* IQTitleBarButtonItem.swift in Sources */,
 				3AF713841DE6E4EC00598EB0 /* IQUIView+Hierarchy.swift in Sources */,
 				3AF7138C1DE6E4EC00598EB0 /* IQBarButtonItem.swift in Sources */,
 				3AF713881DE6E4EC00598EB0 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				3A3DF2ED1DEC4BAB00D4F34D /* PlayerDetailVC.swift in Sources */,
 				3AF7138A1DE6E4EC00598EB0 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				3AF713871DE6E4EC00598EB0 /* IQKeyboardManagerConstants.swift in Sources */,
 				3AF7138F1DE6E4EC00598EB0 /* IQToolbar.swift in Sources */,
 				3ADB2BDA1DE5A0B800CF14A4 /* MySportsTableVC.swift in Sources */,
 				3A210F601DE477BF0001F1F5 /* CommonMethod.swift in Sources */,
+				3A3DF2EB1DEC396100D4F34D /* TeamSelectionCell.swift in Sources */,
 				3AF713821DE6E4EC00598EB0 /* IQUIScrollView+Additions.swift in Sources */,
 				3ADB2BE31DE5C96000CF14A4 /* MySportsVC.swift in Sources */,
 				3AF713851DE6E4EC00598EB0 /* IQUIViewController+Additions.swift in Sources */,
 				3AF7133E1DE6CD1500598EB0 /* PlayerAdVC.swift in Sources */,
 				3A210F5C1DE4771E0001F1F5 /* CreateTeamVC.swift in Sources */,
-				3A1470721DE840DF00F847F1 /* TeamInformationDetailVC.swift in Sources */,
 				3AF713861DE6E4EC00598EB0 /* IQUIWindow+Hierarchy.swift in Sources */,
 				3AF713891DE6E4EC00598EB0 /* IQKeyboardManager.swift in Sources */,
 				3ADB2BDF1DE5C5F800CF14A4 /* MySportsCollectionVC.swift in Sources */,
 				3A210F581DE474820001F1F5 /* SignUpVC.swift in Sources */,
+				3A3DF2E51DEC2FE500D4F34D /* TeamSelectionVC.swift in Sources */,
+				3A3DF2EF1DEC557B00D4F34D /* PlayerSportsDetail.swift in Sources */,
 				3ADB2BE51DE5CF5500CF14A4 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

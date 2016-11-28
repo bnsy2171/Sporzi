@@ -26,8 +26,8 @@ CommonMethod.buttonDesignW(btn: btnPost)
     
     @IBAction func btnPostClicked(_ sender: Any) {
         
-     self.navigationController?.popViewController(animated: true)
-        
+let objTeamSelection = storyboard?.instantiateViewController(withIdentifier:"TeamSelectionVC") as! TeamSelectionVC
+     self.navigationController?.pushViewController(objTeamSelection, animated: true)
     }
     
     

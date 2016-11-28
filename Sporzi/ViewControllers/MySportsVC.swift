@@ -77,7 +77,7 @@ class MySportsVC: UIViewController
     
     
     @IBAction func btnSkipClicked(_ sender: Any) {
-        let objTeamDetail =   storyboard?.instantiateViewController(withIdentifier: "TeamDetailVC") as! TeamDetailVC
+        let objTeamDetail =   storyboard?.instantiateViewController(withIdentifier: "PlayerDetailVC") as! PlayerDetailVC
         
         self.navigationController?.pushViewController(objTeamDetail, animated: true)
     }
